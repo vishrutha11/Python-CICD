@@ -32,7 +32,7 @@ jobs:
 
       # 4. Lint using flake8
       - name: Lint Code (Flake8)
-        run: flake8 . --max-line-length=88 --statistics
+        run: flake8 .
 
       # 5. Security Scan using Bandit
       - name: Security Scan (Bandit)
