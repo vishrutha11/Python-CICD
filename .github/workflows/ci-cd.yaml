@@ -40,7 +40,9 @@ jobs:
 
       # 6. Run Unit Tests
       - name: Run Unit Tests
-        run: pytest tests/ --maxfail=1 --disable-warnings
+        run: 
+          export PYTHONPATH=.
+          pytest tests/ --maxfail=1 --disable-warnings
 
       # 7. Trivy File System Scan
       - name: Trivy File System Scan
