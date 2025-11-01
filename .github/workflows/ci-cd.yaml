@@ -36,7 +36,7 @@ jobs:
 
       # 5. Security Scan using Bandit
       - name: Security Scan (Bandit)
-        run: bandit -r . -x tests
+        run: bandit -r .
 
       # 6. Run Unit Tests
       - name: Run Unit Tests
