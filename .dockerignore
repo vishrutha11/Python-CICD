@@ -1,0 +1,15 @@
+# Ignore credentials and secrets
+*.json
+!package.json
+
+# Ignore Git and CI files
+.git
+.github/
+.gitignore
+
+# Python cache and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
